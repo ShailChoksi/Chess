@@ -12,7 +12,7 @@ namespace Chess
         private bool _isWhite = true;
         private bool _isOnBoard = true;
         PieceType _pieceType;
-        string PieceType = string.Empty;
+        Coordinates _Coordinates;
         #endregion
 
         enum PieceType 
@@ -51,6 +51,11 @@ namespace Chess
             set { _pieceType = value; }
         }
 
+        public Coordinates Coordinates
+        {
+            get { return _Coordinates; }
+            set { _Coordinates = value; }
+        }
         #endregion
 
     }
