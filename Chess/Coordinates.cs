@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Chess
 {
-    class Coordinates
+    public class Coordinates
     {
         int Rank = int.MinValue;
         enum File

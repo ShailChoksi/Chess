@@ -9,13 +9,9 @@ namespace Chess
     public class Piece
     {
         #region Fields
-        private bool _isWhite = true;
-        private bool _isOnBoard = true;
-        PieceType _pieceType;
-        Coordinates _Coordinates;
         #endregion
 
-        enum PieceType 
+        enum PieceType
         { 
             Pawn = 1,
             Rook = 2,
@@ -25,7 +21,7 @@ namespace Chess
             King = 6
         }
         #region Constructors
-        public Piece Piece
+        public Piece()
         {
          
         }
@@ -33,28 +29,23 @@ namespace Chess
 
         #region public methods
 
-        public bool isWhite
+        public bool IsWhite
         {
-            get { return _isWhite; }
-            set { _isWhite = value; }
+            get;
+            set;
         }
 
-        public bool isOnBoard
+        public bool IsOnBoard
         {
-            get { return _isOnBoard; }
-            set { _isOnBoard = value; }
+            get;
+            set;
         }
 
-        public PieceType pieceType
-        {
-            get { return _pieceType; }
-            set { _pieceType = value; }
-        }
 
-        public Coordinates Coordinates
+        public Coordinates coords
         {
-            get { return _Coordinates; }
-            set { _Coordinates = value; }
+            get;
+            set;
         }
         #endregion
 

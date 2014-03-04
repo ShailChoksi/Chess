@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Chess
 {
-    class Move
+    public class Move
     {
         public bool IsLegal(Piece piece)
         {
