@@ -8,7 +8,24 @@ namespace Chess
 {
     public class Coordinates
     {
-        int Rank = int.MinValue;
+        public Coordinates()
+        {
+            Rank = int.MinValue;
+            File File = File.A;
+        }
+
+        int Rank
+        {
+            get { return Rank; }
+            set {
+                if (value < 1 || value > 8)
+                {
+                    Exception ex = new IndexOutOfRangeException();
+                    throw ex;
+                }
+                Rank = value;
+            }
+        }
         enum File
         {
             A, 
