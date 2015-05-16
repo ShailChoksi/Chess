@@ -10,10 +10,11 @@ namespace Chess
     {
         public bool IsLegal(Piece piece)
         {
+            
             return false;
         }
 
-        public bool CapturePossible(Piece pieceOne, Piece pieceTwo)
+        public bool IsCapturePossible(Piece pieceOne, Piece pieceTwo)
         {
             return false;
         }

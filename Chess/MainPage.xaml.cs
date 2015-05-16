@@ -25,6 +25,10 @@ namespace Chess
         public MainPage()
         {
             this.InitializeComponent();
+			
+			Board ChessBoard = new Board();
+			
+			ChessBoard.Initialize();
         }
     }
 }

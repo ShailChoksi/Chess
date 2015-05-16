@@ -9,15 +9,7 @@ namespace Chess
     public class Piece
     {
         #region Fields
-        public enum Type 
-        {
-            Pawn = 1,
-            Rook = 2,
-            Knight = 3,
-            Bishop = 4,
-            Queen = 5,
-            King = 6
-        }
+        
         
 
         #endregion
@@ -28,17 +20,11 @@ namespace Chess
             IsWhite = true;
             IsOnBoard = true;
             Coordinates Coordinates = new Coordinates();
-            Type Type = Piece.Type.Pawn;
+            PieceType P = PieceType.Pawn;
         }
         #endregion
 
         #region public methods
-
-        public bool IsWhite
-        {
-            get;
-            set;
-        }
 
         public bool IsOnBoard
         {
@@ -52,7 +38,40 @@ namespace Chess
             get;
             set;
         }
+
+        public enum PieceType
+        {
+            Pawn = 1,
+            Rook = 2,
+            Knight = 3,
+            Bishop = 4,
+            Queen = 5,
+            King = 6
+        }
+		
+		public enum PieceColor
+		{
+			White = 1, 
+			Black = 2
+		}
+		
+		bool IsPinned { get; set;}
+		
         #endregion
+		
+		#region Public methods
+		public bool MoveTo(Coordinates Coordinates, Board board)
+		{
+			bool hasHoved = false;
+			
+			If(IsPinned = false  && IsOnBoard == true)
+			{
+				
+			}
+			
+			return (hasMoved);
+		}
+		#endregion
 
     }
 }
