@@ -29,7 +29,7 @@ namespace Chess
 		#endregion
 		
 		#region Public Methods
-		public Initialize(){
+		public void Initialize(){
 			//Initialize all pawns
 			for(int j = 0; j < 2; j++)
 			{
@@ -40,7 +40,7 @@ namespace Chess
 					Piece pawn = new Piece();
 					pawn.Coordinates.File = file;
 					pawn.Coordinates.Rank = rank;
-					pawn.IsWhite = rank == 2 ? true: false;
+					pawn.PieceColor = rank == 2 ? PieceColor.White: PieceColor.Black;
 					
 					Pieces.Add(pawn);
 				}
@@ -49,25 +49,25 @@ namespace Chess
 			Piece rook = new Piece();
 			rook.Coordinates.File = File.A;
 			rook.Coordinates.Rank = 1;
-			rook.IsWhite = true;
+			rook.PieceColor = PieceColor.White;
 			Pieces.Add(rook);
 			
 			rook = new Piece();
 			rook.Coordinates.File = File.H;
 			rook.Coordinates.Rank = 1;
-			rook.IsWhite = true;
+			rook.PieceColor = PieceColor.White;
 			Pieces.Add(rook);
 			
 			rook = new Piece();
 			rook.Coordinates.File = File.A;
 			rook.Coordinates.Rank = 8;
-			rook.IsWhite = false;
+            rook.PieceColor = PieceColor.Black;
 			Pieces.Add(rook);
 			
 			rook = new Piece();
 			rook.Coordinates.File = File.H;
 			rook.Coordinates.Rank = 8;
-			rook.IsWhite = false;
+            rook.PieceColor = PieceColor.Black;
 			Pieces.Add(rook);
 			
 			

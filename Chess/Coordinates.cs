@@ -14,7 +14,7 @@ namespace Chess
             File File = File.A;
         }
 
-        int Rank
+        public int Rank
         {
             get { return Rank; }
             set {
@@ -26,16 +26,7 @@ namespace Chess
                 Rank = value;
             }
         }
-        enum File
-        {
-            A = 0, 
-            B = 1,
-            C = 2,
-            D = 3,
-            E = 4,
-            F = 5,
-            G = 6, 
-            H = 7
-        }
+
+        public File File { get; set; }
     }
 }

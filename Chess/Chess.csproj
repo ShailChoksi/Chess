@@ -110,11 +110,13 @@
     </Compile>
     <Compile Include="Board.cs" />
     <Compile Include="Coordinates.cs" />
+    <Compile Include="File.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Move.cs" />
     <Compile Include="Piece.cs" />
+    <Compile Include="PieceColor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
