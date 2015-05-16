@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Chess
 {
-    public class Knight : Piece
+    public enum SquareColor
     {
-        public Knight()
-        {
-            IsOnBoard = true;
-        }
+        White = 0,
+        Black = 1
     }
 }
