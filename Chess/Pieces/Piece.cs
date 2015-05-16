@@ -51,13 +51,18 @@ namespace Chess
 		{
 			bool hasMoved = false;
 			
-			if(IsPinned = false  && IsOnBoard == true)
+			if(IsPinned = false && IsOnBoard == true)
 			{
 				
 			}
 			
 			return (hasMoved);
 		}
+
+        public void Die()
+        {
+            IsOnBoard = false;
+        }
 		#endregion
 
     }
