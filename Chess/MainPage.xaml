@@ -8,6 +8,69 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    	<Rectangle x:Name="Board" Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="600" Margin="118,84,0,0" Stroke="Black" VerticalAlignment="Center" Width="600" />
+        <Rectangle Name="A8" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="442,126,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+        <Rectangle Name="B8" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="517,126,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+        <Rectangle Name="C8" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="592,126,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+        <Rectangle Name="D8" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="667,126,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+        <Rectangle x:Name="E8" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="742,126,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+        <Rectangle Name="F8" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="815,126,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+        <Rectangle Name="G8" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="889,126,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+        <Rectangle Name="H8" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="964,126,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+        <Rectangle Name="D7" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="667,201,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="C7" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="592,201,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="E7" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="740,201,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="G7" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="889,201,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="F7" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="815,201,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="A7" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="442,201,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="H7" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="964,201,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="D6" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="667,276,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="C6" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="592,276,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="B6" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="517,276,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="E6" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="740,276,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="G6" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="889,276,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="F6" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="815,276,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="A6" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="442,276,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="H6" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="964,276,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="D5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="667,351,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="C5" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="592,351,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="B5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="517,351,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="E5" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="740,351,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="G5" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="889,351,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="F5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="815,351,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="A5" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="442,351,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="H5" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="964,351,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="D4" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="667,426,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="C4" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="592,426,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="B4" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="517,426,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="E4" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="740,426,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="G4" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="889,426,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="F4" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="815,426,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="A4" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="442,426,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="H4" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="964,426,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="D3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="667,501,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="C3" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="592,501,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="B3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="517,501,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="E3" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="740,501,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="G3" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="889,501,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="F3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="815,501,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="A3" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="442,501,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="H3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="964,501,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="D2" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="667,576,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="C2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="592,576,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="B2" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="517,576,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="E2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="740,576,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="G2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="889,576,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="F2" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="815,576,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="A2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="442,576,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="H2" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="964,576,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="D1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="667,651,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="C1" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="592,651,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="B1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="517,651,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="E1" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="740,651,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="G1" Fill="Black" HorizontalAlignment="Left" Height="75" Margin="889,651,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="F1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="815,651,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
+    	<Rectangle Name="A1" HorizontalAlignment="Left" Height="75" Margin="442,651,0,0" Stroke="Black" VerticalAlignment="Top" Width="75" Fill="Black"/>
+        <Rectangle Name="H1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="75" Margin="964,651,0,0" Stroke="Black" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Page>

@@ -10,7 +10,7 @@ namespace Chess
     {
         public Rook()
         {
-
+            Coordinates = new Square();
         }
     }
 }

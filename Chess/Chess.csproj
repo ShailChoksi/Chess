@@ -111,7 +111,7 @@
     </Compile>
     <Compile Include="Pieces\Bishop.cs" />
     <Compile Include="Board.cs" />
-    <Compile Include="Coordinates.cs" />
+    <Compile Include="Coordinate.cs" />
     <Compile Include="File.cs" />
     <Compile Include="Pieces\King.cs" />
     <Compile Include="Pieces\Knight.cs" />
@@ -135,6 +135,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Pieces\Chess.BishopBlack.png" />
+    <Content Include="Assets\Pieces\Chess.KingBlack.png" />
+    <Content Include="Assets\Pieces\Chess.KnightBlack.png" />
+    <Content Include="Assets\Pieces\Chess.PawnBlack.png" />
+    <Content Include="Assets\Pieces\Chess.QueenBlack.png" />
+    <Content Include="Assets\Pieces\Chess.RookBlack.png" />
+    <Content Include="Assets\Pieces\Chess.BishopWhite.png" />
+    <Content Include="Assets\Pieces\Chess.KingWhite.png" />
+    <Content Include="Assets\Pieces\Chess.KnightWhite.png" />
+    <Content Include="Assets\Pieces\Chess.PawnWhite.png" />
+    <Content Include="Assets\Pieces\Chess.QueenWhite.png" />
+    <Content Include="Assets\Pieces\Chess.RookWhite.png" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />

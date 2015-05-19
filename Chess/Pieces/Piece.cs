@@ -13,7 +13,7 @@ namespace Chess
         public Piece()
         {
             IsOnBoard = true;
-            Coordinate Coordinates = new Coordinate();
+            Square Coordinates = new Square();
             PieceColor PieceColor = PieceColor.White;
         }
         #endregion
@@ -35,7 +35,7 @@ namespace Chess
         }
 
 
-        public Coordinate Coordinates
+        public Square Coordinates
         {
             get;
             set;
@@ -47,7 +47,7 @@ namespace Chess
             set;
         }
 
-		public bool MoveTo(Coordinate Coordinates, Board board)
+		public bool MoveTo(Square coordinates, Board board)
 		{
 			bool hasMoved = false;
 			

@@ -13,7 +13,7 @@ namespace Chess
 		public Board()
 		{
 			Pieces = new List<Piece>();
-            BoardCoordinates = new List<Coordinate>();
+            BoardCoordinates = new List<Square>();
 		}
 		#endregion
 		
@@ -23,7 +23,7 @@ namespace Chess
 			set;
 		}
 		
-		public List<Coordinate> BoardCoordinates
+		public List<Square> BoardCoordinates
 		{
 			get; 
 			set;
@@ -32,7 +32,20 @@ namespace Chess
 		
 		#region Public Methods
 		public void Initialize(){
-			//Initialize all pieces
+
+            //Initialize all squares
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    Square square = new Square();
+                    square.File = (File)(i);
+                    square.Rank = j;
+                    BoardCoordinates.Add(square);
+                }
+            }
+            
+            //Initialize all pieces
 
             int whiteMajorPieceRank = 1;
             int whitePawnRank = 2;
@@ -100,24 +113,25 @@ namespace Chess
             Pieces.Add(whiteQueenKnight);
 
             Knight whiteKingKnight = new Knight();
-            whiteQueenKnight.Coordinates.File = kingKnightFile;
-            whiteQueenKnight.Coordinates.Rank = whiteMajorPieceRank;
+            whiteKingKnight.Coordinates.File = kingKnightFile;
+            whiteKingKnight.Coordinates.Rank = whiteMajorPieceRank;
             whiteKingKnight.IsOnBoard = true;
             whiteKingKnight.PieceColor = PieceColor.White;
             Pieces.Add(whiteKingKnight);
 
             Knight blackQueenKnight = new Knight();
-            whiteQueenKnight.Coordinates.File = queenKnightFile;
-            whiteQueenKnight.Coordinates.Rank = blackMajorPieceRank;
+            blackQueenKnight.Coordinates.File = queenKnightFile;
+            blackQueenKnight.Coordinates.Rank = blackMajorPieceRank;
             blackQueenKnight.IsOnBoard = true;
             blackQueenKnight.PieceColor = PieceColor.Black;
             Pieces.Add(blackQueenKnight);
 
             Knight blackKingKnight = new Knight();
-            whiteQueenKnight.Coordinates.File = kingKnightFile;
-            whiteQueenKnight.Coordinates.Rank = blackMajorPieceRank;
+            blackKingKnight.Coordinates.File = kingKnightFile;
+            blackKingKnight.Coordinates.Rank = blackMajorPieceRank;
             blackQueenKnight.IsOnBoard = true;
             blackQueenKnight.PieceColor = PieceColor.Black;
+            Pieces.Add(blackKingKnight);
             #endregion
 
             #region Bishop

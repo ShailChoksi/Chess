@@ -29,6 +29,19 @@ namespace Chess
 			Board ChessBoard = new Board();
 			
 			ChessBoard.Initialize();
+            DisplayPieces(ChessBoard);
+        }
+
+        public void DisplayPieces(Board board)
+        {
+            foreach (Piece piece in board.Pieces)
+            {
+                string pieceType = piece.GetType().ToString();
+                string imageName = pieceType + piece.PieceColor.ToString();
+                string coordinates = piece.Coordinates.GetCoordinates();
+
+
+            }
         }
     }
 }

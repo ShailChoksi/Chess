@@ -9,8 +9,8 @@ namespace Chess
     public class Bishop : Piece
     {
         public Bishop()
-        { 
-
+        {
+            Coordinates = new Square();
         }
     }
 }

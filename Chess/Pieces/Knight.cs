@@ -10,6 +10,7 @@ namespace Chess
     {
         public Knight()
         {
+            Coordinates = new Square();
             IsOnBoard = true;
         }
     }

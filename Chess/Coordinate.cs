@@ -7,9 +7,9 @@ using Chess;
 
 namespace Chess
 {
-    public class Coordinate
+    public class Square
     {
-        public Coordinate()
+        public Square()
         {
             Rank = int.MinValue;
             File File = File.A;
@@ -39,6 +39,12 @@ namespace Chess
                     return SquareColor.White;
                 }
             }
+        }
+
+        public string GetCoordinates()
+        {
+            string coordinate = File.ToString() + Rank.ToString();
+            return (coordinate);
         }
     }
 }

@@ -9,8 +9,8 @@ namespace Chess.Pieces
     public class King : Piece
     {
         public King() 
-        { 
-        
+        {
+            Coordinates = new Square();
         }   
     }
 }

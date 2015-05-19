@@ -10,7 +10,7 @@ namespace Chess.Pieces
     {
         public Queen()
         {
-
+            Coordinates = new Square();
         }
     }
 }
